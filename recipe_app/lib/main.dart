@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:recipe_app/presentation/recipe_page.dart';
+
+import 'package:geeks_for_geeks/HomePage.dart';
 
 void main() {
-  runApp(const HomePage());
+  runApp(const MyApp());
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: const Text("GFG Recipe App"),
-        ),
-        body: const RecipePage(),
+      debugShowCheckedModeBanner: false,
+      title: 'Recipe App',
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
       ),
+      home: const HomePage(),
     );
   }
 }
+

@@ -1,6 +1,6 @@
 {
-    "name": "recipe_app",
-    "short_name": "recipe_app",
+    "name": "geeks_for_geeks",
+    "short_name": "geeks_for_geeks",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

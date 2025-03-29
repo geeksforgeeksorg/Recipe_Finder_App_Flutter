@@ -1,4 +1,4 @@
-# recipe_app
+# geeks_for_geeks
 
 A new Flutter project.
 
